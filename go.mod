@@ -1,4 +1,4 @@
-module github.com/jpillora/installer
+module github.com/allinbits/starport-installer
 
 go 1.14
 
