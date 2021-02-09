@@ -37,9 +37,9 @@ jobs:
           --region us-east1
           --platform managed
           --allow-unauthenticated
-          --image gcr.io/tendermint/starport-installer:${GITHUB_SHA::8}
+          --image gcr.io/tendermint/starport-installer:latest
           --concurrency 80
-          --memory 256Mi
+          --memory 128Mi
           --cpu 1000m
           --max-instances 3
           --port 8080
