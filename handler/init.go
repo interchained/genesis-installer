@@ -8,7 +8,7 @@ import (
 	"github.com/rakyll/statik/fs"
 
 	//register data
-	_ "github.com/allinbits/starport-installer/scripts"
+	_ "github.com/interchained/genesis-installer/scripts"
 )
 
 var installScript = []byte{}
