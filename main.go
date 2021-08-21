@@ -7,7 +7,7 @@ import (
 
 	"github.com/jpillora/opts"
 
-	"github.com/allinbits/starport-installer/handler"
+	"github.com/interchained/genesis-installer/handler"
 )
 
 var version = "0.0.0-src"
