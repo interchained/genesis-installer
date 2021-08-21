@@ -5,7 +5,7 @@ package handler
 import (
 	"log"
 
-	"github.com/rakyll/statik/fs"
+	"github.com/interchained/statik/fs"
 
 	//register data
 	_ "github.com/interchained/genesis-installer/scripts"
