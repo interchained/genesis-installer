@@ -143,7 +143,7 @@ func (h *Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 			}
 			fmt.Fprintf(w, "move-into-path: %v\n", q.MoveToPath)
 			fmt.Fprintf(w, "\nto see shell script, visit:\n  %s%s?type=script\n", r.Host, r.URL.String())
-			fmt.Fprintf(w, "\nfor more information on this server, visit:\n  github.com/jpillora/installer\n")
+			fmt.Fprintf(w, "\nfor more information on this server, visit:\n  github.com/interchained/genesis-installer\n")
 			return
 		}
 		showError("Unknown type", http.StatusInternalServerError)
