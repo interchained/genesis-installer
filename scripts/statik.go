@@ -3,7 +3,7 @@
 package scripts
 
 import (
-	"github.com/rakyll/statik/fs"
+	"github.com/interchained/statik/fs"
 )
 
 
